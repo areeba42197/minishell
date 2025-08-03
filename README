@@ -1,0 +1,79 @@
+# 🐚 IIUI-Shell - A Custom Python Shell with GUI (Tkinter)
+
+A mini, interactive Python shell built using `tkinter` for the GUI and `subprocess`, `shlex`, `threading`, and `requests` for the backend. IIUI-Shell provides a user-friendly terminal-like interface with custom commands and utility functions — all inside a GUI!
+
+---
+
+##  Features
+
+- 📁 Directory navigation (`cd`, `ls`, `pwd`)
+- 📂 File operations (`mkdir`, `rmdir`, `touch`, `rm`, `cat`, `head`)
+- 📝 File writing with redirection (`echo`, `echo > file.txt`)
+- 🧠 System commands support (`whoami`, `date`, etc.)
+- 🔁 Command history navigation (↑ / ↓ arrow keys)
+- 🧮 Command timing (`timeit <command>`)
+- 🌦️ Live weather fetch (`weather <city>`)
+- 📊 System mood check (`mood`) based on CPU, RAM, and Disk usage
+- 🔍 Text searching inside files (`grep`)
+- 🧠 Auto-completion support using `Tab` key
+- 🧼 `clear` screen functionality
+- 🆘 `help` and `about` commands
+- 🎨 Beautiful and playful GUI with light pink theme!
+
+---
+
+## 🖥️ GUI Overview
+
+Built using `tkinter`:
+
+- Input area with syntax highlighting-style colors
+- Output appears directly in the same window
+- Uses `ScrolledText` widget for terminal-like feel
+- Each command prompt displays like a bash shell
+
+---
+
+## 🛠 Commands List
+
+| Command        | Description                                   |
+|----------------|-----------------------------------------------|
+| `clear`        | Clears the shell screen                       |
+| `exit`         | Closes the shell                              |
+| `help`         | Shows available commands                      |
+| `about`        | Shows information about this shell            |
+| `cd <dir>`     | Change directory                              |
+| `ls`           | List files in current directory               |
+| `mkdir <dir>`  | Create a new directory                        |
+| `rmdir <dir>`  | Remove an empty directory                     |
+| `touch <file>` | Create a new file                             |
+| `rm <file>`    | Delete a file                                 |
+| `cat <file>`   | Display contents of a file                    |
+| `head <file>`  | Show first 10 lines of a file                 |
+| `grep <p> <f>` | Search for pattern `p` in file `f`            |
+| `pwd`          | Print current working directory               |
+| `whoami`       | Show current system user                      |
+| `date`         | Show system date                              |
+| `echo`         | Print message or write to file                |
+| `history`      | Show all previously executed commands         |
+| `timeit`       | Measure execution time of a command           |
+| `mood`         | Show current system resource status           |
+| `weather`      | Get real-time weather info (via API)          |
+
+---
+
+##  How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/iiui-shell.git
+cd iiui-shell
+
+## 2. Install Requirements
+pip install psutil requests
+
+## 3. Run the Shell
+python shell_ui.py
+
+
+
