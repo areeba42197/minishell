@@ -1,4 +1,4 @@
- **IIUI-Shell - A Custom Python Shell with GUI (Tkinter)**
+ # IIUI-Shell - A Custom Python Shell with GUI (Tkinter)
 
 A mini, interactive Python shell built using `tkinter` for the GUI and `subprocess`, `shlex`, `threading`, and `requests` for the backend. IIUI-Shell provides a user-friendly terminal-like interface with custom commands and utility functions — all inside a GUI!
 
