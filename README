@@ -1,28 +1,28 @@
- # IIUI-Shell - A Custom Python Shell with GUI (Tkinter)
+# **IIUI-Shell - A Custom Python Shell with GUI (Tkinter)**
 
 A mini, interactive Python shell built using `tkinter` for the GUI and `subprocess`, `shlex`, `threading`, and `requests` for the backend. IIUI-Shell provides a user-friendly terminal-like interface with custom commands and utility functions — all inside a GUI!
 
 ---
 
-  **Features**
+## **Features**
 
-- 📁 Directory navigation (`cd`, `ls`, `pwd`)
-- 📂 File operations (`mkdir`, `rmdir`, `touch`, `rm`, `cat`, `head`)
-- 📝 File writing with redirection (`echo`, `echo > file.txt`)
-- 🧠 System commands support (`whoami`, `date`, etc.)
-- 🔁 Command history navigation (↑ / ↓ arrow keys)
-- 🧮 Command timing (`timeit <command>`)
-- 🌦️ Live weather fetch (`weather <city>`)
-- 📊 System mood check (`mood`) based on CPU, RAM, and Disk usage
-- 🔍 Text searching inside files (`grep`)
-- 🧠 Auto-completion support using `Tab` key
-- 🧼 `clear` screen functionality
-- 🆘 `help` and `about` commands
-- 🎨 Beautiful and playful GUI with light pink theme!
+- 📁 **Directory navigation** (`cd`, `ls`, `pwd`)
+- 📂 **File operations** (`mkdir`, `rmdir`, `touch`, `rm`, `cat`, `head`)
+- 📝 **File writing with redirection** (`echo`, `echo > file.txt`)
+- 🧠 **System commands support** (`whoami`, `date`, etc.)
+- 🔁 **Command history navigation** (↑ / ↓ arrow keys)
+- 🧮 **Command timing** (`timeit <command>`)
+- 🌦️ **Live weather fetch** (`weather <city>`)
+- 📊 **System mood check** (`mood`) based on CPU, RAM, and Disk usage
+- 🔍 **Text searching inside files** (`grep`)
+- 🧠 **Auto-completion** support using `Tab` key
+- 🧼 **Clear screen functionality** (`clear`)
+- 🆘 **Help and about** commands
+- 🎨 **Beautiful and playful GUI** with light pink theme!
 
 ---
 
- **GUI Overview**
+## **GUI Overview**
 
 Built using `tkinter`:
 
@@ -33,7 +33,7 @@ Built using `tkinter`:
 
 ---
 
-  **Commands List**
+## **Commands List**
 
 | Command        | Description                                   |
 |----------------|-----------------------------------------------|
@@ -61,13 +61,13 @@ Built using `tkinter`:
 
 ---
 
-**How to Run**
+## **How to Run**
 
-**1. Clone the Repository**
-
+### **1. Clone the Repository**
 ```bash
 git clone https://github.com/your-username/iiui-shell.git
 cd iiui-shell
+
 
 **2. Install Requirements**
 pip install psutil requests
