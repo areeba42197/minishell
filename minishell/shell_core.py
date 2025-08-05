@@ -263,7 +263,7 @@ class ShellCore:
       if not city:
         return "Usage: weather <city>"
 
-      api_key = "dd95f44d9ed6369e2766b3c12a8b9163"
+      api_key = ""
   
       url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
